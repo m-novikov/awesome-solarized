@@ -30,15 +30,16 @@ theme.colors.green   = "#859900ff"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "Terminus 9"
+theme.font      = "Inconsolata 12"
+-- }}}
 
 -- {{{ Colors
 theme.fg_normal  = theme.colors.base02
-theme.fg_focus   = theme.colors.base03
+theme.fg_focus   = theme.colors.blue
 theme.fg_urgent  = theme.colors.base3
 
 theme.bg_normal  = theme.colors.base3
-theme.bg_focus   = theme.colors.base1
+theme.bg_focus   = theme.colors.base2
 theme.bg_urgent  = theme.colors.red
 theme.bg_systray = theme.bg_normal
 -- }}}
@@ -65,7 +66,7 @@ theme.mouse_finder_color = theme.colors.green
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
 theme.menu_height = "15"
-theme.menu_width  = "100"
+theme.menu_width  = "200"
 -- }}}
 
 -- {{{ Icons
